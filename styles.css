@@ -1,0 +1,239 @@
+@font-face {
+    font-family: olde;
+    src: url(fonts/carolus-fg.regular.ttf);
+}
+
+
+
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+    color: black;
+
+    text-decoration: none;
+
+    transition: all 0.6s;
+
+    text-align: justify;
+
+
+}
+
+
+body{
+
+    background: white;
+
+    font-family: olde;
+
+    width: 100vw;
+
+    padding: 10%;
+
+    overflow-x: hidden;
+
+
+
+}
+
+
+main{
+
+    position: relative;
+
+}
+
+
+.sect0{
+
+    /* background: url(images/frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    padding: 10% 5% 10% 5% ;
+
+    width: 96%;
+
+}
+
+.icns{
+
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+
+    margin: 0  auto;
+
+    /* bottom: 5%; */
+
+
+}
+
+.icns img{
+
+    width: 8vw;
+    margin: 25% 3% -8% 3% ;
+    cursor: pointer;
+
+
+}
+
+.icns img:hover{
+
+    scale: 1.1;
+    transform: translateY(-10%);
+
+}
+
+.frame21{
+
+    position: absolute;
+
+    top: 4%;
+    width: 80vw;
+
+    left: 0%;
+    z-index: -1;
+
+}
+
+
+
+
+h1{
+
+    font-size: 3.8vw;
+    text-align: center;
+    width: 65%;
+    margin: 30% auto 0 auto;
+
+
+}
+
+h2{
+
+    font-size: 2.2vw;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 1% auto;
+
+}
+
+h3{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    width: 70%;
+    
+    margin: auto;
+
+}
+
+
+h4{
+
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 2.3vw;
+    width: 80%;
+    text-transform: uppercase;
+    
+    margin: 1% auto;
+ 
+
+}
+
+
+
+p{
+
+    font-size: 1.7vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 78%;
+
+}
+
+
+.sect0d2{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 40%;
+
+    margin: 2% 0 3% -15%;
+
+
+
+}
+
+.stamp{
+
+    /* position: absolute;
+
+    top: 93%;
+    left: 25%; */
+    width: 10vw;
+
+    animation: zooming 2s ease infinite;
+
+}
+
+.sign{
+
+    /* position: absolute; */
+
+    /* top: 95%;
+    right: 25%; */
+
+    width: 20vw;
+
+    animation: spining 2s ease infinite;
+
+}
+
+
+.myeye{
+
+    position: absolute;
+
+    top: -6%;
+    left: 23%;
+
+    width: 40vw;
+
+    animation: zooom 2s ease infinite ;
+
+
+}
+
+

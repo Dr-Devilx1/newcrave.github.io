@@ -1,0 +1,76 @@
+
+
+
+
+@keyframes zooming {
+    
+    0%, 25%, 50%{
+
+        transform: scale(1);
+
+    }
+
+    75%{
+
+      transform: scale(1.2);
+
+    }
+
+    100%{
+
+        transform: scale(1);
+
+    }
+
+
+}
+
+
+  
+  @keyframes zooom {
+    
+
+    0% , 100%{
+
+        scale: 1.15;
+
+    }
+
+    50%{
+        scale: 1;
+    }
+
+
+  }
+
+@keyframes spining {
+    
+    0%,100%{
+        rotate: 5deg;
+    }
+
+    50%{
+
+        rotate: 0deg;
+
+    }
+
+}
+
+
+@keyframes updwn {
+    
+    0%, 100%{
+
+        transform: translateY(0%);
+
+    }
+
+    50%{
+
+        transform: translateY(30%);
+
+    }
+
+
+}
